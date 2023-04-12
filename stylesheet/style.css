@@ -311,25 +311,25 @@ header{
 }
 
 .examplebox-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(/assets/asset\ 36.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(./assets/asset\ 36.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .examplebox-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(/assets/asset\ 37.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(./assets/asset\ 37.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .examplebox-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(/assets/asset\ 38.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(./assets/asset\ 38.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .examplebox-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(/assets/asset\ 39.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(./assets/asset\ 39.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
