@@ -1,11 +1,43 @@
 @media screen and (max-width: 1226px) {
-    .hamburger {
+    #hamburger {
         display: block;
     }
-    .navlist {
-        display: none;
+    .navbar {
+        position: relative;
+    }
+    .nav-toggle {
+        display:none;  
+        position: absolute;
+        right: 0;
+        top: 100%;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        height:fit-content;
+        padding-bottom: 0px;
+        box-shadow: 0 5px 5px rgba(128, 128, 128, 0.495);
+    }
+    .nav-links {
+        display: block;
+    }
+    .sign {
+        text-align: center;
+        margin: auto;
+        margin: 10px 20px;
+        width: 100%;
+
+    }
+    .Show {
+        display: block;      
     }
 
+
+    .dropmenu1:hover .inner-nav-list1{
+       position: relative;
+    }
+      
+    .dropmenu2:hover .inner-nav-list2{
+        position: relative;
+    }
 }
 
 @media screen and (max-width: 956px) {

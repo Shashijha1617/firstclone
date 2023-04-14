@@ -128,10 +128,34 @@ header{
 }
 .navlist li a {
     margin-left: 25px;
+    font-size: 1.2rem;
+}
+.inner-nav-list1,.inner-nav-list2  {
+    display: none;
+    position: absolute;
+    background-color: #fffffffa;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 20;
+    border-radius: 10px;
+}
+.inner-nav-list1 li, .inner-nav-list2 li {
+    margin-bottom: 1px;
+    padding: 20px 0px 5px 0px;
 }
 
-.inner-nav-list {
-    display: none;
+.inner-nav-list1 a, .inner-nav-list2 a {
+    color: rgba(37, 35, 35, 0.596);
+    padding: 12px 16px 12px 2px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.dropmenu1:hover .inner-nav-list1{
+    display: block;
+}
+  
+.dropmenu2:hover .inner-nav-list2{
+    display: block;
 }
 .sub-tester-holder {
     position: relative;
@@ -143,10 +167,10 @@ header{
     top: -8px;
     z-index: -1;
 }
-
-.hamburger {
+#hamburger {
+    margin-right: 20px;
     display: none;
-}
+} 
 /* main section */
 .homearea {
     margin: 100px 0 100px 0; 
@@ -180,8 +204,6 @@ header{
     margin: 10px;
     padding: 0 20px;
 }
-
-
 /* feature section */
 .feature {
     background-image: url(/assets/asset\ 34.svg);
@@ -311,25 +333,25 @@ header{
 }
 
 .examplebox-1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(/assets/asset\ 36.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(../assets/asset\ 36.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .examplebox-2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(/assets/asset\ 37.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(../assets/asset\ 37.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .examplebox-3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(/assets/asset\ 38.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(../assets/asset\ 38.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .examplebox-4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(/assets/asset\ 39.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.174), rgba(0, 0, 0, .85)), url(../assets/asset\ 39.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
