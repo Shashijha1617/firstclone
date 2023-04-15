@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F9FAFB;
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    max-width: 1480px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.signup {
+    background-color:#F9FAFB;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.144);
+}
+.signup a {
+    text-decoration: none;
+    color: rgb(78, 76, 76);
+    font-weight: 600;
+}  
+.signup img {
+    width: 150px;
+}
+
+.signup-container {
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+.signing-box {
+    margin:0 30px;
+    flex: 2 ;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.signing-box h1 {
+    font-size: 1.8rem;
+    color: rgb(107, 102, 102);
+
+}
+.form {
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 30px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+.redstar {
+    color: red;
+}
+.form .input-box {
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    height: 40px;
+    border: 1.5px solid rgba(128, 128, 128, 0.584);
+}
+.tandc a {
+    color:#3F83F8;
+}
+.form .submit {
+    background-color: rgb(41, 171, 232);
+    color: white;
+    text-align: center;
+    padding: 3px;
+}
+.otherwaytologib {
+    width: 100%;
+}
+.otherwaytologib hr {
+    width: 45%;
+    margin: 10px;
+    color: rgba(158, 154, 154, 0.13);
+}
+.google-login {
+    text-decoration: none;
+    padding: 8px 25px;
+    background-color: transparent;
+    border: 1px solid rgb(41, 171, 232) ;
+    border-radius: 10px;
+    color: rgb(63, 63, 63);
+    width: max-content;
+    margin: auto;
+    text-align: center;
+}
+.google-login img {
+    width: 2rem;
+}
+
+.login-mode {
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+}
+.login-mode a {
+    color:#3F83F8;
+}
+
+.uxbrands {
+    padding: 10px 150px;
+    flex: 3;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+}
+.uxbrands h2{
+    font-weight: 400;
+    width: 80%;
+    font-size: 2rem;
+    color: gray;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.brand-container{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px 50px;
+
+}
+.brand-container img {
+    width: 130px;
+} 
+
+@media screen and (max-width: 1226px) {
+    .signup-container{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .uxbrands h2{
+        width: 100%;
+    }
+    .uxbrands {
+        padding: 10px 50px;
+    }
+}
