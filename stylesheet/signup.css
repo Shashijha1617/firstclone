@@ -38,7 +38,7 @@ body {
 }
 .signing-box {
     margin:0 30px;
-    flex: 2 ;
+    flex: 3 ;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
@@ -113,7 +113,7 @@ body {
 
 .uxbrands {
     padding: 10px 150px;
-    flex: 3;
+    flex: 4;
     flex-direction: column;
     gap: 40px;
     justify-content: center;
@@ -132,11 +132,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 0px 50px;
+    gap: 0px 10px;
 
 }
 .brand-container img {
-    width: 130px;
+    width: 150px;
 } 
 
 @media screen and (max-width: 1226px) {

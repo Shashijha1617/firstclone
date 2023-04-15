@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 body {
+    height: 100vh;
+    width: 100%;
     background-color: #F9FAFB;
 }
 .container {
@@ -46,6 +48,7 @@ header a img {
 .login-container-box {
     width: 30%;
     flex-direction: column;
+    margin-bottom: 10rem;
 }
 .redstar {
     color: red;
