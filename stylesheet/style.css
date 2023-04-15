@@ -110,14 +110,16 @@ header{
 }
 
 /* navbar */
-nav {
-    width: 100%;
-    position: fixed;
-    background-color: #fff;
-    z-index: 10;
-}
 .navbar-nav {
     justify-content: space-between;
+}
+.stickey-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 50;
 }
 
 .logo img {
